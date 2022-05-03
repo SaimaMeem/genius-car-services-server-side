@@ -26,7 +26,10 @@
  * 2. keep the git updated
  * 3. git push heroku main
  * ------------------------------------
- * Connect Server-side with Client-Side
+ * Connect Server-side with Client-Side and deploy client-side
  * ------------------------------------
+ * 1. replace localhost with heroku link
+ * 2. npm run build on the client side
+ * 3. firebase deploy
  * 
  */ 
