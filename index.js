@@ -88,6 +88,10 @@ async function run() {
             res.send(result);
         });
 
+        app.get('/hero', async (req, res) => {
+            res.send("Checking for updates")
+        })
+
     }
     finally {
 
